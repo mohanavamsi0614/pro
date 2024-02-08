@@ -6,7 +6,7 @@ function Contact() {
   const [error,seterror]=useState({})
   function changer(e){
      const {name,value}=e.target
-     let da={...data}
+     let da={...data,sub:false}
      da[name]=value
     setdata(da)
     console.log(data)
