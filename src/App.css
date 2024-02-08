@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.img{
+  width: 3%;
+}
 .light{
   background-color: rgb(126, 176, 126);
   color: white;
@@ -36,7 +39,8 @@ p{
   width: 650px;
   background-color: white;
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
+  margin-top: 40px;
 }
 form{
   display: flex;
@@ -99,19 +103,17 @@ nav{
   border-radius: 10px;
   justify-content: flex-end;
   align-items: center;
-
 }
 img{
   width: 5%;
   position: absolute;
   left: 10px;
-  top: 5px;
+  top: 2px;
 }
 nav>*{
   margin: 10px;
   border-radius: 5px;
   padding: 1px;
-  
 }
 p{
   color: white;
